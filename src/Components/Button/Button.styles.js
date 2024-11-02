@@ -43,7 +43,7 @@ export default {
         },
         buttonText: {
             ...base_style.buttonText,
-          color: "#ff6f3c", 
+          color: "#ff9a3c", 
         },
 
       })

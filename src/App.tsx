@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login";
+import FlashMessage from "react-native-flash-message";
 
 const Stack = createNativeStackNavigator();
 

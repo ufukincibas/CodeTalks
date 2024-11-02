@@ -2,7 +2,7 @@ import React from "react";
 import { TextInput, View } from "react-native";
 import styles from "./Input.styles";
 
-function Input({placeholder , value , onChanceText , secureTextEntry}){
+function Input({placeholder , value , onChangeText , secureTextEntry}){
     return(
     <View style={styles.container}>
 
@@ -10,7 +10,7 @@ function Input({placeholder , value , onChanceText , secureTextEntry}){
         style={styles.Input}
         placeholder={placeholder}
         value={value}
-        onChangeText={onChanceText}
+        onChangeText={onChangeText}
         secureTextEntry={secureTextEntry}
         placeholderTextColor="white"/>
     </View>
