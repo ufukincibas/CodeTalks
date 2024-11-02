@@ -5,6 +5,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login";
 import FlashMessage from "react-native-flash-message";
+import Rooms from "./Pages/Rooms";
+
 
 const Stack = createNativeStackNavigator();
 
@@ -12,9 +14,12 @@ function App(){
   return(
    <NavigationContainer>
     <Stack.Navigator>
-      <Stack.Screen name="SignUpPage" component={SignUp}/>
+   
       <Stack.Screen name="LoginPage" component={Login}/>
+      <Stack.Screen name="SignUpPage" component={SignUp}/>
+      <Stack.Screen name="RoomsPage" component={Rooms}/>
     </Stack.Navigator>
+    <FlashMessage position="top" /> {/* FlashMessage'ı ekle */}
    </NavigationContainer>
   )
 }
