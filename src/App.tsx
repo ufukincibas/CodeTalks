@@ -14,10 +14,11 @@ function App(){
   return(
    <NavigationContainer>
     <Stack.Navigator>
-   
+      
+      <Stack.Screen name="RoomsPage" component={Rooms}/>
       <Stack.Screen name="LoginPage" component={Login}/>
       <Stack.Screen name="SignUpPage" component={SignUp}/>
-      <Stack.Screen name="RoomsPage" component={Rooms}/>
+     
     </Stack.Navigator>
     <FlashMessage position="top" /> {/* FlashMessage'ı ekle */}
    </NavigationContainer>
