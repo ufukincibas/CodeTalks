@@ -12,7 +12,7 @@ function Input({placeholder , value , onChangeText , secureTextEntry}){
         value={value}
         onChangeText={onChangeText}
         secureTextEntry={secureTextEntry}
-        placeholderTextColor="white"/>
+        />
     </View>
 )
 }
